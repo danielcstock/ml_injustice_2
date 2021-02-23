@@ -1,0 +1,4 @@
+0 enter
+1 esc
+2 down
+3 right
