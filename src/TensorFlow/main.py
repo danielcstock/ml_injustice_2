@@ -4,6 +4,7 @@ from Roster.Atrocitus import Atrocitus
 from Roster.Bane import Bane
 from Roster.Batman import Batman
 from Roster.BlueBeetle import BlueBeetle
+from Roster.Firestorm import Firestorm
 from Roster.TheFlash import TheFlash
 from Roster.PoisonIvy import PoisonIvy
 from Roster.Superman import Superman
@@ -139,7 +140,7 @@ def switch_roster(argument):
         8: "August",
         9: BlueBeetle(),
         10: BlueBeetle(),
-        11: "November",
+        18: Firestorm(),
         19: TheFlash(),
         26: PoisonIvy(),
         34: Superman()
