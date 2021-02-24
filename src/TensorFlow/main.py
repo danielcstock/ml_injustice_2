@@ -28,6 +28,9 @@ def PAUSE():
     auto.moveTo(700, 707)
     auto.moveTo(780, 707, 1, auto.easeInQuad)
     auto.doubleClick()
+    auto.mouseDown()
+    time.sleep(0.2)
+    auto.mouseUp()
 
 def select():
     auto.keyDown("esc")
