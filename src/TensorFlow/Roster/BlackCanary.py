@@ -7,6 +7,10 @@ class BlackCanary():
     '''
 
     def choose_me(self):
+        auto.keyDown("down")
+        time.sleep(0.3)
+        auto.keyUp("down")
+        time.sleep(0.5)
         
 
     def log(self):
