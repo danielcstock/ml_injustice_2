@@ -3,11 +3,38 @@ from Roster.Atom import Atom
 from Roster.Atrocitus import Atrocitus
 from Roster.Bane import Bane
 from Roster.Batman import Batman
+from Roster.BlackAdam import BlackAdam
+from Roster.BlackManta import BlackManta
+from Roster.BlackCanary import BlackCanary
 from Roster.BlueBeetle import BlueBeetle
+from Roster.Brainiac import Brainic
+from Roster.Catwoman import Catwoman
+from Roster.Cheetah import Cheetah
+from Roster.Cyborg import Cyborg
+from Roster.Darkseid import Darkseid
+from Roster.Deadshot import DeadShot
+from Roster.DoctorFate import DoctorFate
+from Roster.Enchantress import Enchantress
 from Roster.Firestorm import Firestorm
-from Roster.TheFlash import TheFlash
+from Roster.GorillaGrodd import GorillaGrodd
+from Roster.GreenArrow import GreenArrow
+from Roster.GreenLantern import GreenLantern
+from Roster.HarleyQuinn import HarleyQuinn
+from Roster.Hellboy import Hellboy
 from Roster.PoisonIvy import PoisonIvy
+from Roster.Raiden import Raiden
+from Roster.RedHood import RedHood
+from Roster.Robin import Robin
+from Roster.ScareCrow import ScareCrow
+from Roster.Starfire import Starfire
+from Roster.Subzero import Subzero
+from Roster.Supergirl import Supergirl
 from Roster.Superman import Superman
+from Roster.SwampThing import SwampThing
+from Roster.TheFlash import TheFlash
+from Roster.TheJoker import TheJoker
+from Roster.TMNT import TMNT
+from Roster.WonderWoman import WonderWoman
 from ML import ML
 from test import test
 import pyautogui as auto
@@ -138,15 +165,38 @@ def switch_roster(argument):
         3: Atrocitus(),
         4: Bane(),
         5: Batman(),
-        6: Batman(),
-        7: "July",
-        8: "August",
+        6: BlackAdam(),
+        7: BlackCanary(),
+        8: BlackManta(),
         9: BlueBeetle(),
-        10: BlueBeetle(),
+        10: Brainiac(),
+        11: Catwoman(),
+        12: Cheetah(),
+        13: Cyborg(),
+        14: Darkseid(),
+        15: Deadshot(),
+        16: DoctorFate(),
+        17: Enchatress(),
         18: Firestorm(),
         19: TheFlash(),
+        20: GorillaGrodd(),
+        21: GreenArrow(),
+        22: GreenLantern(),
+        23: HarleyQuinn(),
+        24: Hellboy(),
+        25: TheJoker(),
         26: PoisonIvy(),
-        34: Superman()
+        27: Raiden(),
+        28: RedHood(),
+        29: Robin(),
+        30: ScareCrow(),
+        31: Starfire(),
+        32: Subzero(),
+        33: Supergirl(),
+        34: Superman(),
+        35: SwampThing(),
+        36: TMNT(),
+        37: WonderWoman()
     }
     return switcher.get(argument, Superman())
 

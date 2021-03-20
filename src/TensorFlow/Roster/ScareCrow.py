@@ -1,9 +1,9 @@
 import pyautogui as auto
 import time
 
-class Atrocitus():
+class ScareCrow():
     '''
-        Classe para o personagem Atrocitus.
+        Classe para o personagem Scare Crow.
     '''
 
     def choose_me(self):
@@ -26,6 +26,22 @@ class Atrocitus():
         time.sleep(0.3)
         auto.keyUp("right")
         time.sleep(0.5)
-        
+
+        auto.keyDown("right")
+        time.sleep(0.3)
+        auto.keyUp("right")
+        time.sleep(0.5)
+
+        auto.keyDown("right")
+        time.sleep(0.3)
+        auto.keyUp("right")
+        time.sleep(0.5)
+
+        auto.keyDown("down")
+        time.sleep(0.3)
+        auto.keyUp("down")
+        time.sleep(0.5)
+
     def log(self):
-        print("Atrocitus has been chosen.")
+        print("Scare Crow chosen.")
+
